@@ -74,6 +74,11 @@ function createItems(items, container) {
 
 ## Courses:
 
-- HTML academy (JS)
+- HTML academy JS
 - Udemy JS
 - Udemy React
+
+## Languages:
+
+- Russian (Native)
+- English (Intermediate)
