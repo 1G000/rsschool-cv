@@ -1,73 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
     <title>cv</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Frontend skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main-container">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <a href="#about" class="nav-link"
+              ><li class="nav-item">About me</li></a
+            >
+            <a href="#contacts" class="nav-link"
+              ><li class="nav-item">Contacts</li></a
+            >
+            <a href="#skills" class="nav-link"
+              ><li class="nav-item">Frontend skills</li></a
+            >
+            <a href="#code" class="nav-link"
+              ><li class="nav-item">Code example</li></a
+            >
+            <a href="#courses" class="nav-link"
+              ><li class="nav-item">Courses</li></a
+            >
+            <a href="#languages" class="nav-link"
+              ><li class="nav-item">Languages</li></a
+            >
+            <a href="#education" class="nav-link"
+              ><li class="nav-item">Education</li></a
+            >
+            <a href="#projects" class="nav-link"
+              ><li class="nav-item">Projects</li></a
+            >
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
         <div class="left-side">
-            <section class="section">
-                <h1 class="main-title">Gorbatovskiy Igor</h1>
-                <h2 class="section-title">trainee frontend developer</h2>
-                <img src="./img/photo.jpg" class="profile-photo" alt="my photo">
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contact Information:</h2>
-                <ul class="contacts-list">
-                    <li>E-mail: gorbatovskiy.igor@gmail.com </li>
-                    <li>GitHub: <a href="https://github.com/1G000">https://github.com/1G000</a></li>
-                </ul>
-            </section>
-            <section class="section">
-                <h2 class="section-title" id="skills">Frontend Skills:</h2>
-                <ul class="skills-list">
-                    <li>HTML5</li>
-                    <li>CSS3/SASS</li>
-                    <li>JavaScript Basics</li>
-                    <li>React Basics</li>
-                    <li>Git, GitHub</li>
-                    <li>VS Code</li>
-                </ul>
-            </section>
+          <section class="photo-section">
+            <h1 class="main-title">Gorbatovskiy Igor</h1>
+            <h2 class="main-section-title">trainee frontend developer</h2>
+            <img src="./img/photo.jpg" class="profile-photo" alt="my photo" />
+            <img
+              src="https://www.codewars.com/users/rsschool_a7709b1e9f8d2cb1/badges/large"
+              class="codewars-badge"
+            />
+          </section>
+          <section class="contacts-section">
+            <h2 class="section-title">Contact Information:</h2>
+            <ul class="contacts-list">
+              <li>
+                E-mail:
+                <a href="mailto:gorbatovskiy.igor@gmail.com"
+                  >gorbatovskiy.igor@gmail.com</a
+                >
+              </li>
+              <li>
+                GitHub:
+                <a href="https://github.com/1G000">https://github.com/1G000</a>
+              </li>
+            </ul>
+          </section>
+          <section class="skills-section">
+            <h2 class="section-title" id="skills">Frontend Skills:</h2>
+            <ul class="skills-list">
+              <li>
+                <img
+                  class="logo"
+                  alt="html-logo"
+                  title="HTML"
+                  src="./assets/icons8-html.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="css-logo"
+                  title="CSS"
+                  src="./assets/icons8-css.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="sass-logo"
+                  title="Sass"
+                  src="./assets/icons8-sass.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="javascript-logo"
+                  title="JavaScript"
+                  src="./assets/icons8-javascript.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="react-logo"
+                  title="React"
+                  src="./assets/icons8-react.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="GitHub-logo"
+                  title="GitHub"
+                  src="./assets/icons8-github.svg"
+                />
+              </li>
+              <li>
+                <img
+                  class="logo"
+                  alt="VSCode-logo"
+                  title="VSCode"
+                  src="./assets/icons8-visual-studio-code.svg"
+                />
+              </li>
+            </ul>
+          </section>
+          <section class="section languages-section" id="languages">
+            <h2 class="section-title">Languages:</h2>
+            <ul class="languages-list">
+              <li>Russian (Native)</li>
+              <li>English (Intermediate)</li>
+            </ul>
+          </section>
+          <section class="education-section">
+            <h2 class="section-title">My Education:</h2>
+            <p>Saint Petersburg Mining University (2012)</p>
+          </section>
         </div>
         <div class="right-side">
-            <div class="right-side-container">
-            <section class="section about-section" id="about">
-                <h2 class="section-title">About Me:</h2>
-                <p class="text">I was born and live in Saint Petersburg, Russia. I have been working as a power engineer for over ten years. In my spare time I study frontend development and play tennis</p>
-            </section>
-            <section class="section courses-section" id="courses">
-                <h2 class="section-title">Courses:</h2>
-                <ul class="courses-list">
-                    <li>HTML academy: "Javascript. Professional development of web interfases (2022)"</li>
-                    <li>Udemy: "JavaScript - Full course (2022)"</li>
-                    <li>Udemy: "React - Full course (2022)"</li>
-                </ul>
-            </section>
-            <section class="section code-section" id="code">
-                <h2 class="section-title">Code Example</h2>
-                <p class="text">Function from my entry task to one of the companies</p>
-                <pre class="code-field">
+          <section class="section">
+            <h2 class="section-title">About Me:</h2>
+            <p class="text">
+              I was born and live in Saint Petersburg, Russia. I have been
+              working as a power engineer for over ten years. In my spare time I
+              study frontend development and play tennis
+            </p>
+          </section>
+          <section class="section">
+            <h2 class="section-title">Courses:</h2>
+            <ul class="courses-list">
+              <li>RS SCHOOL: "JS/FE Pre-School (2023)"</li>
+              <li>
+                <div class="course-item">
+                  <p>
+                    HTML academy: "Javascript. Professional development of web
+                    interfaces (2022)"
+                  </p>
+                </div>
+              </li>
+              <li>Udemy: "JavaScript - Full course (2022)"</li>
+              <li>Udemy: "React - Full course (2022)"</li>
+            </ul>
+          </section>
+          <section class="section">
+            <h2 class="section-title">Certificates:</h2>
+            <div class="slider-area">
+              <button class="left-btn"></button>
+              <div class="slider">
+                <div class="certificates">
+                  <div class="cert">
+                    <img src="./img/HTML.jpg" class="certificat-vertical" />
+                  </div>
+                  <div class="cert">
+                    <img src="./img/js.jpg" class="certificat" />
+                  </div>
+                  <div class="cert">
+                    <img src="./img/react.jpg" class="certificat" />
+                  </div>
+                </div>
+              </div>
+              <button class="right-btn"></button>
+            </div>
+          </section>
+          <section class="section">
+            <h2 class="section-title">Code Example</h2>
+            <p class="text">
+              Function from my entry task to one of the companies
+            </p>
+            <pre class="code-field">
                     <code>
 function getMessage () {
   let message = '';
@@ -79,29 +200,31 @@ return message.trim();
 getMessage ();
                     </code>
                 </pre>
-            </section>
-            <section class="section languages-section" id="languages">
-                <h2 class="section-title">Languages:</h2>
-                <ul class="languages-list">
-                    <li>Russian (Native)</li>
-                    <li>English (Intermediate)</li>
-                </ul>
-            </section>
-            <section class="section projects-section" id="projects">
-                <h2 class="section-title">My Projects:</h2>
-                <ul class="projects-list">
-                    <li><a href="https://github.com/1G000/Tennis-shop">Tennis shop</a></li>
-                </ul>
-            </section>
-            <section class="section education-section" id="education">
-                <h2 class="section-title">My Education:</h2>
-                <ul class="projects-list">
-                    <li>Saint Petersburg Mining University (2012)</li>
-                </ul>
-            </section>
+          </section>
+
+          <section class="section">
+            <h2 class="section-title">My Projects:</h2>
+            <ul class="projects-list">
+              <li>
+                <a href="https://github.com/1G000/Tennis-shop">Tennis shop</a>
+              </li>
+            </ul>
+          </section>
         </div>
-        </div>
-    </main>
- <footer class="footer"><a href="https://github.com/1G000">my GitHub</a><p>2023</p><a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" class="school-logo" alt="rs school logo"></a></footer>
-</body>
+      </main>
+      <footer class="footer">
+        <a href="https://github.com/1G000"
+          ><img class="github-logo" src="./img/github-mark.svg"
+        /></a>
+        <p>2023</p>
+        <a href="https://rs.school/js/"
+          ><img
+            src="./img/rs_school_js.svg"
+            class="school-logo"
+            alt="rs school logo"
+        /></a>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
