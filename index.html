@@ -38,6 +38,38 @@
             >
           </ul>
         </nav>
+        <div class="burger-menu-icon">
+          <span class="line"></span><span class="line"></span
+          ><span class="line"></span>
+        </div>
+        <div class="burger-menu">
+          <ul>
+            <a href="#about" class="nav-link"
+              ><li class="nav-item">About me</li></a
+            >
+            <a href="#contacts" class="nav-link"
+              ><li class="nav-item">Contacts</li></a
+            >
+            <a href="#skills" class="nav-link"
+              ><li class="nav-item">Frontend skills</li></a
+            >
+            <a href="#code" class="nav-link"
+              ><li class="nav-item">Code example</li></a
+            >
+            <a href="#courses" class="nav-link"
+              ><li class="nav-item">Courses</li></a
+            >
+            <a href="#languages" class="nav-link"
+              ><li class="nav-item">Languages</li></a
+            >
+            <a href="#education" class="nav-link"
+              ><li class="nav-item">Education</li></a
+            >
+            <a href="#projects" class="nav-link"
+              ><li class="nav-item">Projects</li></a
+            >
+          </ul>
+        </div>
       </header>
       <main class="main">
         <div class="left-side">
@@ -150,44 +182,80 @@
           <section class="section">
             <h2 class="section-title">Courses:</h2>
             <ul class="courses-list">
-              <li>RS SCHOOL: "JS/FE Pre-School (2023)"</li>
-              <li>
-                <div class="course-item">
-                  <p>
-                    HTML academy: "Javascript. Professional development of web
-                    interfaces (2022)"
-                  </p>
-                </div>
+              <li class="course-item">
+                <img
+                  src="./img/HTML.jpg"
+                  class="cert-vert"
+                  title="RS SCHOOL:JS/FE Pre-School (2023)"
+                />
               </li>
-              <li>Udemy: "JavaScript - Full course (2022)"</li>
-              <li>Udemy: "React - Full course (2022)"</li>
+              <li>
+                <img
+                  src="./img/HTML.jpg"
+                  class="cert-vert"
+                  title=" HTML academy: Javascript. Professional development of web interfaces
+                (2022)"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/js.jpg"
+                  class="cert"
+                  title="Udemy: JavaScript -
+                Full course (2022)"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/react.jpg"
+                  class="cert"
+                  title=" Udemy: React -
+                Full course (2022)"
+                />
+              </li>
             </ul>
           </section>
-          <section class="section">
-            <h2 class="section-title">Certificates:</h2>
+          <section class="projects-section">
+            <h2 class="section-title">My projects:</h2>
             <div class="slider-area">
-              <button class="left-btn"></button>
+              <img src="./assets/left.svg" class="left-btn" />
               <div class="slider">
-                <div class="certificates">
-                  <div class="cert">
-                    <img src="./img/HTML.jpg" class="certificat-vertical" />
+                <div class="projects">
+                  <div class="project">
+                    <p>Dog's MEMO game</p>
+                    <a
+                      href="https://rolling-scopes-school.github.io/1g000-JSFEPRESCHOOL2023Q2/memory-game/index.html"
+                      ><img src="./img/dogs memo.jpg" class="project-img"
+                    /></a>
                   </div>
-                  <div class="cert">
-                    <img src="./img/js.jpg" class="certificat" />
+                  <div class="project">
+                    <p>Library</p>
+                    <a
+                      href="https://rolling-scopes-school.github.io/1g000-JSFEPRESCHOOL2023Q2/library/"
+                      ><img src="./img/library.jpg" class="project-img"
+                    /></a>
                   </div>
-                  <div class="cert">
-                    <img src="./img/react.jpg" class="certificat" />
+                  <div class="project">
+                    <p>Image gallery</p>
+                    <a
+                      href="https://rolling-scopes-school.github.io/1g000-JSFEPRESCHOOL2023Q2/image-galery/index.html"
+                      ><img src="./img/screen.jpg" class="project-img"
+                    /></a>
+                  </div>
+                  <div class="project">
+                    <p>Mem slider</p>
+                    <a
+                      href="https://1g000.github.io/cssMemeSlider/cssMemeSlider/index.html"
+                      ><img src="./img/memslider.jpg" class="project-img"
+                    /></a>
                   </div>
                 </div>
               </div>
-              <button class="right-btn"></button>
+              <img src="./assets/left.svg" class="right-btn" />
             </div>
           </section>
           <section class="section">
             <h2 class="section-title">Code Example</h2>
-            <p class="text">
-              Function from my entry task to one of the companies
-            </p>
             <pre class="code-field">
                     <code>
 function getMessage () {
@@ -200,15 +268,6 @@ return message.trim();
 getMessage ();
                     </code>
                 </pre>
-          </section>
-
-          <section class="section">
-            <h2 class="section-title">My Projects:</h2>
-            <ul class="projects-list">
-              <li>
-                <a href="https://github.com/1G000/Tennis-shop">Tennis shop</a>
-              </li>
-            </ul>
           </section>
         </div>
       </main>
