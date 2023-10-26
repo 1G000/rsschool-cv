@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 .header {
@@ -130,8 +131,9 @@ body {
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+  margin: 5px auto 0;
+  column-gap: 10px;
+  width: 100%;
 }
 
 .main-title {
@@ -158,9 +160,10 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 300px;
-  width: 28%;
   border-radius: 20px;
-  margin: 5px;
+  flex-grow: 4;
+  flex-shrink: 10;
+  flex-basis: 20%;
 }
 
 .photo-section {
@@ -171,6 +174,7 @@ body {
   padding: 5px 10px;
   border-radius: 20px;
   gap: 10px;
+  max-width: 100%;
 }
 
 .contacts-section {
@@ -233,12 +237,13 @@ body {
 
 .right-side {
   min-width: 300px;
-  width: 70%;
   gap: 10px;
   border-radius: 20px;
   padding: 10px;
-  margin: 5px;
   background-color: khaki;
+  flex-grow: 10;
+  flex-shrink: 1;
+  flex-basis: 50%;
 }
 
 .code-section {
@@ -293,20 +298,20 @@ body {
 
 .profile-photo {
   width: 340px;
-  height: 420px;
   border-radius: 15px;
+  max-width: 100%;
 }
 
 .code-field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   max-width: 500px;
+  overflow: auto;
   background-color: rgb(251, 233, 233);
   border: solid 1px;
   border-color: blueviolet;
   font-size: 10px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .contacts-list {
@@ -421,7 +426,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 300px;
-  min-width: 350px;
+  width: 350px;
 }
 
 .project p {
@@ -455,7 +460,6 @@ body {
   font-family: "CrimsonRegular", serif;
   list-style: none;
   font-size: 20px;
-  letter-spacing: 2px;
 }
 
 .projects-section {
@@ -467,10 +471,6 @@ body {
 
 .projects-list {
   font-size: 20px;
-}
-
-.projects-list li {
-  letter-spacing: 2px;
 }
 
 .text {
@@ -510,7 +510,11 @@ body {
   font-family: "CrimsonRegular", serif;
   color: khaki;
 }
+/* 
 @media (max-width: 740px) {
+  .main {
+    background-color: khaki;
+  }
   .nav {
     display: none;
   }
@@ -522,26 +526,22 @@ body {
     flex-direction: column;
   }
 
-  .slider-area {
-    width: 300px;
-  }
-
   .main {
     justify-content: center;
   }
 
-  .project-img {
-    width: 250px;
-    height: 150px;
+  .slider {
+    width: 300px;
   }
 
-  .projects-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .projects {
+    gap: 100px;
   }
   .project {
     height: 250px;
-    min-width: 290px;
+    max-width: 300px;
   }
-}
+  .project-img {
+    width: 300px;
+  }
+} */
