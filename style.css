@@ -31,7 +31,9 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,10 +82,11 @@ body {
 
 .burger-menu {
   visibility: hidden;
+  opacity: 0;
   position: absolute;
-  top: 50px;
-  right: 143px;
-  background-color: rgb(0, 0, 0, 0.7);
+  top: 39px;
+  right: 0px;
+  background-color: rgb(0, 0, 0, 0.9);
   height: 400px;
   width: 300px;
   transform: translateX();
@@ -105,6 +108,7 @@ body {
 
 .burger-menu-open {
   visibility: visible;
+  opacity: 1;
   transform: translateX(0);
   transition: 0.5s;
   animation: comein 0.5s ease-in-out;
@@ -254,7 +258,6 @@ body {
 }
 
 .nav-list {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -490,6 +493,7 @@ body {
   width: 100%;
   padding: 5px 20px;
   border-radius: 20px;
+  margin-top: 5px;
 }
 
 .github-logo {
@@ -510,7 +514,7 @@ body {
   font-family: "CrimsonRegular", serif;
   color: khaki;
 }
-/* 
+
 @media (max-width: 740px) {
   .main {
     background-color: khaki;
@@ -522,26 +526,32 @@ body {
     display: flex;
   }
 
-  .courses-list {
-    flex-direction: column;
+  .header {
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0, 0.99);
+    border: 1px solid black;
   }
-
   .main {
-    justify-content: center;
+    margin: 0px auto 0;
+  }
+  .education-section p {
+    font-size: 25px;
   }
 
-  .slider {
-    width: 300px;
+  .languages-list {
+    font-size: 25px;
   }
+  .photo-section {
+    border-radius: 0px;
+  }
+  .footer {
+    margin-top: 0px;
+    border-radius: 0px;
+  }
+}
 
-  .projects {
-    gap: 100px;
+@media (max-width: 740px) {
+  .photo-section {
+    width: 100%;
   }
-  .project {
-    height: 250px;
-    max-width: 300px;
-  }
-  .project-img {
-    width: 300px;
-  }
-} */
+}
