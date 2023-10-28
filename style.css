@@ -190,7 +190,7 @@ body {
   background-color: khaki;
   padding: 5px 10px;
   border-radius: 20px;
-  gap: 10px;
+
   width: 100%;
 }
 
@@ -201,7 +201,7 @@ body {
   background-color: khaki;
   padding: 5px 10px;
   border-radius: 20px;
-  gap: 10px;
+
   width: 100%;
 }
 .languages-section {
@@ -210,7 +210,6 @@ body {
   align-items: center;
   padding: 5px 10px;
   border-radius: 20px;
-  gap: 10px;
   width: 100%;
   background-color: khaki;
 }
@@ -221,7 +220,6 @@ body {
   align-items: center;
   padding: 5px 10px;
   border-radius: 20px;
-  gap: 10px;
   width: 100%;
   background-color: khaki;
 }
@@ -229,10 +227,6 @@ body {
 .education-section p {
   font-family: "CrimsonRegular", serif;
   font-size: 20px;
-}
-
-.section-about {
-  padding: 10px 30px;
 }
 
 .section-title {
@@ -311,7 +305,7 @@ body {
 
 .code-field {
   width: 100%;
-  max-width: 500px;
+  max-width: 900px;
   overflow: auto;
   background-color: rgb(251, 233, 233);
   border: solid 1px;
@@ -436,10 +430,6 @@ body {
   width: 350px;
 }
 
-.project-img:hover {
-  border: 1px solid black;
-}
-
 .project p {
   font-size: 20px;
   font-family: "CrimsonRegular", serif;
@@ -507,13 +497,17 @@ body {
 }
 
 .github-logo {
+  border-radius: 30%;
   width: 40px;
   height: 40px;
+  background-color: khaki;
 }
 
 .school-logo {
+  border-radius: 15%;
   width: 80px;
   height: 40px;
+  background-color: khaki;
 }
 
 .footer a {
@@ -540,7 +534,6 @@ body {
 .backdrop.is-hidden {
   display: none;
   opacity: 0;
-  animation: fadeOutModal 0.5s ease-in-out;
 }
 
 @media (max-width: 740px) {
