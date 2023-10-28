@@ -56,6 +56,7 @@ body {
   height: 40px;
   background-color: transparent;
   margin-right: 10px;
+  z-index: 10;
 }
 
 .burger-menu-icon:hover {
@@ -92,6 +93,7 @@ body {
   transform: translateX();
   transition: 0.5s ease-in-out;
   animation: close 0.5s ease-in-out;
+  z-index: 10;
 }
 
 @keyframes close {
@@ -280,12 +282,14 @@ body {
   margin-right: 0px;
 }
 
-.nav-link {
+.nav-link,
+.nav-link-burger {
   font-family: "CrimsonRegular", serif;
   font-size: 20px;
   color: khaki;
   text-decoration: none;
 }
+
 .nav-link:hover {
   color: khaki;
   text-decoration: none;
@@ -432,6 +436,10 @@ body {
   width: 350px;
 }
 
+.project-img:hover {
+  border: 1px solid black;
+}
+
 .project p {
   font-size: 20px;
   font-family: "CrimsonRegular", serif;
@@ -443,6 +451,8 @@ body {
   border-radius: 10px;
   width: 350px;
   height: 230px;
+  object-fit: contain;
+  box-sizing: border-box;
 }
 
 .courses-list {
@@ -513,6 +523,24 @@ body {
 .footer p {
   font-family: "CrimsonRegular", serif;
   color: khaki;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+  opacity: 1;
+}
+
+.backdrop.is-hidden {
+  display: none;
+  opacity: 0;
+  animation: fadeOutModal 0.5s ease-in-out;
 }
 
 @media (max-width: 740px) {
