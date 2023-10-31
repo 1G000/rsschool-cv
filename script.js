@@ -27,7 +27,7 @@ function toggleBackDrop() {
   burgerMenu.classList.toggle("burger-menu-open");
 }
 
-window.addEventListener("mouseup", function (event) {
+window.addEventListener("pointerup", function (event) {
   if (
     burgerMenu.classList.contains("burger-menu-open") &&
     event.target != burgerMenuBtn &&
