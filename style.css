@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "CrimsonRegular";
   src: url("./assets/fonts/CrimsonText-Regular.ttf");
@@ -5,6 +6,8 @@
   font-weight: normal;
 }
 
+=======
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +20,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   width: 100%;
+=======
+  min-width: 100%;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +32,7 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-wrap: wrap;
   max-width: 1440px;
@@ -231,10 +239,36 @@ body {
 
 .section-title {
   font-family: "CrimsonRegular", serif;
+=======
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+  color: purple;
+}
+
+.section {
+  padding-bottom: 20px;
+}
+
+.section-title {
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
   text-align: center;
   color: purple;
 }
 
+<<<<<<< HEAD
 .right-side {
   min-width: 300px;
   gap: 10px;
@@ -244,6 +278,28 @@ body {
   flex-grow: 10;
   flex-shrink: 1;
   flex-basis: 50%;
+=======
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: khaki;
+  width: 30%;
+}
+
+.right-side {
+  width: 70%;
+}
+
+p {
+  padding: 0px 20px;
+}
+
+.right-side .section-title {
+  width: 100%;
+  background-color: khaki;
+  padding: 0 7px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
 
 .code-section {
@@ -251,10 +307,15 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
+=======
+  padding-bottom: 20px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
 
 .nav-list {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   justify-content: end;
   align-items: center;
@@ -280,11 +341,23 @@ body {
 .nav-link-burger {
   font-family: "CrimsonRegular", serif;
   font-size: 20px;
+=======
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 30px;
+  list-style: none;
+  background-color: blueviolet;
+}
+
+.nav-link {
+  padding: 6px 20px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
   color: khaki;
   text-decoration: none;
 }
 
 .nav-link:hover {
+<<<<<<< HEAD
   color: khaki;
   text-decoration: none;
   height: 50px;
@@ -292,12 +365,15 @@ body {
 }
 
 .nav-item:hover {
+=======
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
   cursor: pointer;
   background-color: khaki;
   color: purple;
 }
 
 .profile-photo {
+<<<<<<< HEAD
   width: 340px;
   border-radius: 15px;
   max-width: 100%;
@@ -307,10 +383,24 @@ body {
   width: 100%;
   max-width: 900px;
   overflow: auto;
+=======
+  border-radius: 200px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.code-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 500px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
   background-color: rgb(251, 233, 233);
   border: solid 1px;
   border-color: blueviolet;
   font-size: 10px;
+<<<<<<< HEAD
   margin: 0 auto;
   padding: 10px;
 }
@@ -450,19 +540,75 @@ body {
   list-style: none;
   font-family: "CrimsonRegular", serif;
   font-size: 25px;
+=======
 }
 
-.about-section {
+.text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 10px 20px 0px 20px;
+  font-size: 20px;
+}
+
+.contacts-list li {
+  margin: 10px 0px 0px 0px;
+}
+
+.skills-list {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.skills-list li {
+  letter-spacing: 2px;
+  margin: 0px 0px 10px 0px;
+}
+
+.courses-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
+.courses-list {
+  font-size: 20px;
+  padding: 10px 20px 0 20px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+<<<<<<< HEAD
+=======
+  padding-top: 20px;
+  width: 100%;
+}
+
+.languages-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
+  width: 100%;
+}
+
 .languages-list {
+<<<<<<< HEAD
   font-family: "CrimsonRegular", serif;
   list-style: none;
   font-size: 20px;
+=======
+  font-size: 20px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
 
 .projects-section {
@@ -472,6 +618,7 @@ body {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .projects-list {
   font-size: 20px;
 }
@@ -480,11 +627,28 @@ body {
   font-family: "CrimsonRegular", serif;
   font-size: 25px;
   text-indent: 30px;
+=======
+.education-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.projects-list {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.projects-list li {
+  letter-spacing: 2px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
 
 .footer {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   justify-content: space-between;
   align-items: center;
   min-height: 30px;
@@ -508,6 +672,20 @@ body {
   width: 80px;
   height: 40px;
   background-color: khaki;
+=======
+  justify-content: space-around;
+  align-items: center;
+  min-height: 30px;
+  background-color: blueviolet;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.school-logo {
+  width: 50px;
+  height: 50px;
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
 
 .footer a {
@@ -515,6 +693,7 @@ body {
 }
 
 .footer p {
+<<<<<<< HEAD
   font-family: "CrimsonRegular", serif;
   color: khaki;
 }
@@ -575,4 +754,20 @@ body {
   .photo-section {
     width: 100%;
   }
+=======
+  color: khaki;
+}
+
+@media (max-width: 850px) {
+  .left-side {
+    width: 100%;
+  }
+  .right-side {
+    width: 100%;
+  }
+
+  .nav-link {
+    font-size: 8px;
+  }
+>>>>>>> 22648e812e89648dc14d9154ef96bec80e328c72
 }
